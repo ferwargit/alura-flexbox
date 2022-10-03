@@ -1,0 +1,23 @@
+/* .headerPrincipal-titulo {
+    display: inline-block;
+    vertical-align: middle;
+}
+.headerPrincipal-nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 600px; No sirve
+    float: right; tampoco sirve
+} */
+
+/* Clase Padre */
+.headerPrincipal .container {
+    display: flex;
+    /* Alinea verticalmente */
+    align-items: center; 
+    /* Le da espacio entre los items */
+    justify-content: space-between;
+}
+/* Clase Padre */
+.headerPrincipal-nav {
+    display: flex;
+}
